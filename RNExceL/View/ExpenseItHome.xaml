@@ -71,8 +71,8 @@
         <Expander IsExpanded="{Binding LoginExpander}" Grid.Row="3" Grid.RowSpan="2" Header="Login" Height="129" Margin="-2,0,0,0" Name="expander1" VerticalAlignment="Top" BorderThickness="4">
             <Grid>
                 <Button Content="Login" Command="{Binding LoginCommand}" Height="23" HorizontalAlignment="Left" Margin="79,71,0,0" Name="LoginButton" VerticalAlignment="Top" Width="75" IsDefault="True" />
-                <TextBox Text="{Binding Login}" Height="28" HorizontalAlignment="Left" Margin="61,6,0,0" Name="Login" VerticalAlignment="Top" Width="142" />
-                <TextBox Text="{Binding Password}" Height="26" HorizontalAlignment="Left" Margin="61,34,0,0" Name="Password" VerticalAlignment="Top" Width="142" />
+                <TextBox Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}" Height="28" HorizontalAlignment="Left" Margin="61,6,0,0" Name="Login" VerticalAlignment="Top" Width="142" />
+                <TextBox Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}" Height="26" HorizontalAlignment="Left" Margin="61,34,0,0" Name="Password" VerticalAlignment="Top" Width="142" />
                 <TextBlock Height="26" HorizontalAlignment="Left" Margin="0,6,0,0" Name="textBlock1" Text="Login" VerticalAlignment="Top" Width="64" FontWeight="Normal" FontSize="14"><TextBlock.Background><LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5"><GradientStop Color="#FF2E82A4" Offset="1" /><GradientStop Color="White" Offset="0.295" /></LinearGradientBrush></TextBlock.Background></TextBlock>
                 <TextBlock Height="26" HorizontalAlignment="Left" Margin="0,34,0,0" Name="textBlock2" Text="Password" VerticalAlignment="Top" Width="64" FontSize="14"><TextBlock.Background><LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5"><GradientStop Color="#FF2E82A4" Offset="1" /><GradientStop Color="White" Offset="0.295" /></LinearGradientBrush></TextBlock.Background></TextBlock>
             </Grid>

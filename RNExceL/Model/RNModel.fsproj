@@ -43,7 +43,7 @@
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
     <Reference Include="NPOI">
-      <HintPath>..\..\..\..\..\Dist\Libs\NPOI\NPOI.dll</HintPath>
+      <HintPath>D:\Dist\Libs\NPOI\NPOI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
