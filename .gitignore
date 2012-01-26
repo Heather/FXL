@@ -1,0 +1,10 @@
+/contrib
+/RNExceL/Model/obj
+/RNExceL/Model/bin
+/RNExceL/Repository/obj
+/RNExceL/Repository/bin
+/RNExceL/View/obj
+/RNExceL/View/bin
+/RNExceL/ViewModel/obj
+/RNExceL/ViewModel/bin
+*.suo
