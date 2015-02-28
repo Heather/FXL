@@ -19,8 +19,8 @@ type ExcWor() =
         if [|fname;varCol;valCol;startRow;endRow|] 
             |> Seq.forall(fun x -> (x <> "" && x <> null)) then 
             using(new FileStream(fname, FileMode.Open, FileAccess.Read))<| fun fs               ->
-            using(new HSSFWorkbook(fs, true))                           <| fun templateWorkbook ->  
-            using(templateWorkbook.GetSheet("Sheet1"))                  <| fun sheet            ->
+                let templateWorkbook = new HSSFWorkbook(fs, true)
+                let sheet = templateWorkbook.GetSheet("Sheet1")
 
                 let cvar    = cXL varCol   
                 let cval    = cXL valCol   

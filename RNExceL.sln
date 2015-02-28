@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNXCL", "RNExceL\View\RNXCL.csproj", "{D0D2FDBE-98AF-4490-B85C-66A7D584EF49}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RNViewModel", "RNExceL\ViewModel\RNViewModel.fsproj", "{5921E5DC-7639-4B1B-8D68-BA67FF17D879}"
